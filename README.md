@@ -15,9 +15,9 @@ State(less)
 * no state is being managed by the server
 
 6 design pricipals
+
     1.  Resources 
         * nouns in plural from
-
         * Entity ! = single data Entity (entity may not come from singe source (2 databases for instance))
         * Products. Employees. Orders, Payments Cars
     2. Resource Identifiers
