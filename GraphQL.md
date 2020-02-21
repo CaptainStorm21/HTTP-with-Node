@@ -2,7 +2,9 @@ Graph QL
 Graphqul complements REST, does not intent to replace it 
 
 data query and manipulaiton language
+
 think of it as a proxy between the app and the REST API
+
 allows easily query complex data
 
 for the rest these are 3 endpoints
