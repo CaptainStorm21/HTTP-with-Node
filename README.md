@@ -86,3 +86,19 @@ State(less)
             /api/v1/products?v=1 vs /api/products?v=2
         Header versioning
             HTTP custom header for version, eg X-API-VERSION = 1
+
+
+    Query params
+        * Normally used for filtering, sorting , pagination
+        * Denotes by the question mark
+            /api/users?filter=coffee&page=2
+
+    Anatomy of a URL
+    
+https://example.com:443/api/orders?page2&filter=shoe
+    * http(s)-protocol
+    * example.com - domain
+    * (:)443 - port 
+    * /api/orders - path to a ressource
+    * ?page2&filter=shoe (query strings, without the question mark and the amersand)
+
