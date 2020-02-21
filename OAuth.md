@@ -1,4 +1,5 @@
 OAuth
+
     * Open authentication (open standard)
     * latest is OAuth 2.0 framework
     * Often sees when using Twitter, FB, Google
