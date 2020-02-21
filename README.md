@@ -34,4 +34,10 @@ State(less)
     4. Resource representation
         *   Defines the data respresentation of the returned resource
         *  Typically either XML or JSON
+    5. HTTP Methods
+        * GET - return resource
+        * POST - creates a new resources
+        * PUT - creates or replaces a resource
+        * PATCH - updates partial a resources
+        * DELETE - deles a resource
         
