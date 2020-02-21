@@ -96,6 +96,7 @@ State(less)
     Anatomy of a URL
     
 https://example.com:443/api/orders?page2&filter=shoe
+
     * http(s)-protocol
     * example.com - domain
     * (:)443 - port 
@@ -104,6 +105,7 @@ https://example.com:443/api/orders?page2&filter=shoe
 
 
 HATEOAS
+
     * Hypertext as the engine of application state
     * represent relationship between resources via links
     * links placed inside resources to allow "navigatetion"
