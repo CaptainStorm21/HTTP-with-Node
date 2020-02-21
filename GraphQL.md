@@ -7,7 +7,7 @@ allows easily query complex data
 for the rest these are 3 endpoints
     /api/user/1/posts
     /api/user/1/posts/comments 
-    /api/user/x/comments 
+    /api/user/x/comments https://github.com/CaptainStorm21/Node-Complete-Dev/blob/master/GraphQL.rm
         * list a post by a user, plus comments
         * comments should contain username and avatar
         
