@@ -1,6 +1,7 @@
 Graph QL
 Graphqul complements REST, does not intent to replace it 
-data query and manipulaiton languagehttps://github.com/CaptainStorm21/Node-Complete-Dev/blob/master/GraphQL.txt
+
+data query and manipulaiton language
 think of it as a proxy between the app and the REST API
 allows easily query complex data
 
