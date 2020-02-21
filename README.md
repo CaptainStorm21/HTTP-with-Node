@@ -76,3 +76,13 @@ State(less)
             4xx - client error messages
             4xx - Server Error Messages
      
+
+     Versioning
+    
+    API versioning via : 
+        URI - version is part of the URI 
+            /api/v1/products vs /api/v1/products
+        Query String
+            /api/v1/products?v=1 vs /api/products?v=2
+        Header versioning
+            HTTP custom header for version, eg X-API-VERSION = 1
