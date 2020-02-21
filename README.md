@@ -102,3 +102,9 @@ https://example.com:443/api/orders?page2&filter=shoe
     * /api/orders - path to a ressource
     * ?page2&filter=shoe (query strings, without the question mark and the amersand)
 
+
+HATEOAS
+    * Hypertext as the engine of application state
+    * represent relationship between resources via links
+    * links placed inside resources to allow "navigatetion"
+    
