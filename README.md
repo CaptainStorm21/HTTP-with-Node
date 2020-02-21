@@ -40,4 +40,39 @@ State(less)
         * PUT - creates or replaces a resource
         * PATCH - updates partial a resources
         * DELETE - deles a resource
-        
+   
+    4. Resource representation
+        *   Defines the data respresentation of the returned resource
+        *  Typically either XML or JSON
+    5. HTTP Methods
+        * GET - return resource
+        * POST - creates a new resources
+        * PUT - creates or replaces a resource
+        * PATCH - updates partial a resources
+        * DELETE - deles a resource
+    6.     HTTP Semantics and Status Codes
+        GET
+            200 -  OK
+            4O4 - not found
+        POST
+            201 - Created
+            400 - Bad request
+        PUT
+            201 - Created
+            204 - No Content
+            200 - OK
+            409 - Conflict
+        PATCH
+            204 - No Content
+            400/409
+        DELETE
+            204(NO Content)
+            404(Not found)
+
+        Errors
+            1xx - Information messages
+            2xx - success messages
+            3xx - redirection messages
+            4xx - client error messages
+            4xx - Server Error Messages
+     
